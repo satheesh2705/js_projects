@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Mr_Black</label>
+        <ul class="select">
+            <li><a class="active" href="word_cnt.html">Home</a></li>
+            <li><a href=" ">About</a></li>
+            <li><select class="service">
+               <option ><a href="#">Service</a></option>
+               <option ><a href="fd_cls.html">FD cal</a></option>
+               <option ><a href="timer.html">Timer</a></option>
+                <option > <a href="word_cnt.html">Word Counter</a></option>
+               <option >Cm to inch</option>
+               <option >Curency Cvt</option>
+
+            </select></li>
+            <li><a href=" ">Cantact</a></li>
+            <li><a href=" ">Feedback</a></li>
+           
+
+        </ul>
+    </nav>
+
+
+
+        <div class="outer">
+            <div class="inner">
+     <input type="text" id="input" placeholder="Enter The number">
+    <button type="submit" onclick="calculate()">Calculate</button>
+    <div id="ans"></div>
+</div>  
+</div>
+
+       
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

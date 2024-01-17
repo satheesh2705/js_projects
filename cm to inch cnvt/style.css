@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    
+}
+
+nav{
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding:  0 100px;
+    font-weight: bold;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 7px 13px;
+
+}
+
+a.active,a.hover{
+    background: #1b9bff;
+    transition:  .5s;
+}
+
+.checkbtn{
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
+
+
+
+
+/* body */
+
+
+.outer{
+    margin-top: 2%;
+    display:flex;
+    justify-content: center;
+   
+   
+}
+
+.inner{
+    display: grid;
+    justify-content: space-evenly;
+    /* grid-template-rows:  1fr 1fr 1fr 1fr; */
+    border-radius: 20px 0px 20px 0px;
+    height: 500px;
+    width: 38%;
+    background-color: rgb(206, 95, 4);
+}
+
+.inner input{
+    margin-top: 150px;
+    margin-bottom: 0%;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: black;
+    text-decoration-color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.inner button{
+    border-radius: 5px;
+    border: 10px;
+    outline: 5px;
+    outline-color: rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+    margin: 0px 70px;
+    height: 40px;
+    width: 120px;
+}
+
+#ans{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: wheat;
+
+}
+
+.service{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times;
+    border: none;
+    outline: none;
+    background-color: blue;
+}
